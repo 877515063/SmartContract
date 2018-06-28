@@ -1,0 +1,174 @@
+{
+  "contractName": "SM",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058201ba10fc0fee89987eeeff2c0b58a016953294be239d3af9c6b2610e437f208900029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058201ba10fc0fee89987eeeff2c0b58a016953294be239d3af9c6b2610e437f208900029",
+  "sourceMap": "26:56:1:-;;;42:38;8:9:-1;5:2;;;30:1;27;20:12;5:2;42:38:1;26:56;;;;;;",
+  "deployedSourceMap": "26:56:1:-;;;;;",
+  "source": "pragma solidity ^0.4.4;\n\n\ncontract SM {\n  function SM() {\n    // constructor\n  }\n}\n",
+  "sourcePath": "/Users/dev4mobile/Desktop/SmartContractDemo/SmartContract/contracts/SM.sol",
+  "ast": {
+    "absolutePath": "/Users/dev4mobile/Desktop/SmartContractDemo/SmartContract/contracts/SM.sol",
+    "exportedSymbols": {
+      "SM": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "SM",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "56:24:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "SM",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "53:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "56:0:1"
+            },
+            "scope": 63,
+            "src": "42:38:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:56:1"
+      }
+    ],
+    "src": "0:83:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/dev4mobile/Desktop/SmartContractDemo/SmartContract/contracts/SM.sol",
+    "exportedSymbols": {
+      "SM": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "SM",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "56:24:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "SM",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "53:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "56:0:1"
+            },
+            "scope": 63,
+            "src": "42:38:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:56:1"
+      }
+    ],
+    "src": "0:83:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-06-20T10:21:35.566Z"
+}
